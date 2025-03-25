@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="251463E4-B6B7-00D7-1039-1EE089B6D3C7" name="T_VB_ESTABELECIMENTO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 11:08:07 UTC</createdTime>
+<ownerDesignName>exercicio aula3</ownerDesignName>
+<engineerTo>
+<item key="F5A8E36D-2F41-3113-FEA9-F7DF0D8E7305" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>
