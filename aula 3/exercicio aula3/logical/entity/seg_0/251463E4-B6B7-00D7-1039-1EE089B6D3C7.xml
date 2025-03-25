@@ -14,4 +14,103 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_estabelecimento" id="7E4FD3EB-F79A-EB58-A034-CDA22106E653">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 12:51:42 UTC</createdTime>
+<ownerDesignName>exercicio aula3</ownerDesignName>
+<engineerTo>
+<item key="F5A8E36D-2F41-3113-FEA9-F7DF0D8E7305" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_razao_social" id="B82CFE23-06A8-42B8-8154-CCD3FD79AA60">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 12:52:14 UTC</createdTime>
+<ownerDesignName>exercicio aula3</ownerDesignName>
+<engineerTo>
+<item key="F5A8E36D-2F41-3113-FEA9-F7DF0D8E7305" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>110</dataTypeSize>
+<ownDataTypeParameters>110,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="695151C9-AD95-2219-F50D-02018CFA4F01">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 12:52:41 UTC</createdTime>
+<ownerDesignName>exercicio aula3</ownerDesignName>
+<engineerTo>
+<item key="F5A8E36D-2F41-3113-FEA9-F7DF0D8E7305" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco_do_estabelecimento" id="5325A06D-D2F6-39C5-8B2B-1F473C628D49">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 12:54:04 UTC</createdTime>
+<ownerDesignName>exercicio aula3</ownerDesignName>
+<engineerTo>
+<item key="F5A8E36D-2F41-3113-FEA9-F7DF0D8E7305" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_IE" id="10C675A8-091C-04A5-CFE6-00D043CED0FF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 12:54:55 UTC</createdTime>
+<ownerDesignName>exercicio aula3</ownerDesignName>
+<engineerTo>
+<item key="F5A8E36D-2F41-3113-FEA9-F7DF0D8E7305" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_contato" id="CDD0B435-2B77-F085-7682-2C39CEA4D7B3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 12:55:32 UTC</createdTime>
+<ownerDesignName>exercicio aula3</ownerDesignName>
+<engineerTo>
+<item key="F5A8E36D-2F41-3113-FEA9-F7DF0D8E7305" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_mesa" id="5F76B5CC-266E-9EBE-D81D-240010EB883A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 12:56:28 UTC</createdTime>
+<ownerDesignName>exercicio aula3</ownerDesignName>
+<engineerTo>
+<item key="F5A8E36D-2F41-3113-FEA9-F7DF0D8E7305" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

@@ -14,4 +14,20 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_pedido" id="6483835A-7808-0562-2640-30BF5A1426E4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 13:00:21 UTC</createdTime>
+<ownerDesignName>exercicio aula3</ownerDesignName>
+<engineerTo>
+<item key="F5A8E36D-2F41-3113-FEA9-F7DF0D8E7305" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>
