@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="287A6B17-C135-2A3E-11B6-28F8AC0B2A55" name="T_vb_mesa">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:40:13 UTC</createdTime>
+<ownerDesignName>vende bem aula04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pk_mesa" id="39403A93-02E7-D937-C671-DD9E2F89C61E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:41:01 UTC</createdTime>
+<ownerDesignName>vende bem aula04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="entradas_de_cadeiras" id="30520F77-5A1C-86F6-5041-CF339B2D50D1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:41:28 UTC</createdTime>
+<ownerDesignName>vende bem aula04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="posicoes" id="8DCB256B-7F2D-8697-19BF-90ABA3EC7E90">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:43:02 UTC</createdTime>
+<ownerDesignName>vende bem aula04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D736925-71E6-B321-ED3D-AA227BBE2765" name="T_vb_mesa PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:41:14 UTC</createdTime>
+<ownerDesignName>vende bem aula04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>39403A93-02E7-D937-C671-DD9E2F89C61E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

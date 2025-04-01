@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="914B72B2-52B7-BC44-2C21-C3FF81B52B81" name="T_vb_endereco">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:20:40 UTC</createdTime>
+<ownerDesignName>vende bem aula04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pk_endereco" id="7F28C320-373F-E8EF-97C2-DAD04AF6179A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:22:45 UTC</createdTime>
+<ownerDesignName>vende bem aula04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cep" id="E0E793B1-5708-4EBB-180F-61BEB116C3A7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:25:34 UTC</createdTime>
+<ownerDesignName>vende bem aula04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_casa" id="7A5B6D7B-B196-63B5-6B5B-B01C325DC733">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:26:14 UTC</createdTime>
+<ownerDesignName>vende bem aula04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estabelecimento" id="3385FA07-2548-8710-4E27-4992CEC3845D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:27:55 UTC</createdTime>
+<ownerDesignName>vende bem aula04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="char_rua" id="EB6C62A0-7543-1141-8BF6-8CDE31CD99BF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:29:31 UTC</createdTime>
+<ownerDesignName>vende bem aula04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estabelecimento1" id="D835D3FB-15CC-A104-A039-2DBD79637CE6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:37:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do estabelecimento. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>267C3074-EE95-9AE2-4453-6E756506EA35</generatorID>
+<ownerDesignName>vende bem aula04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<referedAttribute>396F4828-9347-DCCE-97BA-360A37611FDF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C7A1F900-CCDB-ADD7-75A4-3F8B33FE8E34" name="T_vb_endereco PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:25:18 UTC</createdTime>
+<ownerDesignName>vende bem aula04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F28C320-373F-E8EF-97C2-DAD04AF6179A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

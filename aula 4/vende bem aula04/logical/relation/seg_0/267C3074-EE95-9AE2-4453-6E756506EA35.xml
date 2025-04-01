@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_VB_ENDERECO_ESTABELECIMENTO" directorySegmentName="seg_0" id="267C3074-EE95-9AE2-4453-6E756506EA35">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:37:44 UTC</createdTime>
+<ownerDesignName>vende bem aula04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<sourcePk>87E4DD7C-942D-39FF-6863-49091F0A61C3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8E0AFA2B-0FA3-1EFA-CFE8-78CF1BB8472F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>914B72B2-52B7-BC44-2C21-C3FF81B52B81</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
