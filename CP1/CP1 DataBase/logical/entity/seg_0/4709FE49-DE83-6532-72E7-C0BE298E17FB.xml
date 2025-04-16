@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4709FE49-DE83-6532-72E7-C0BE298E17FB" name="T_VB_PLANO_SAUDE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:50:46 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plano-saude" id="A8F356AB-513C-C505-1B72-66BEB1A5E453">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:51:30 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_fantasia" id="097FB8C2-6743-8A91-67A5-F4831F2DCA49">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:51:59 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razao_social" id="D214DDFF-EC59-36A8-FB33-6250E6F9A733">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:52:23 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNPJ" id="CE4D2D7E-4B36-41DE-E325-DC7329D3E5AF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:52:43 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contato" id="AD925543-EE81-0CCF-E07A-9F2E28CEE81D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:52:58 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="9B7FAEEE-AA41-12F8-CE46-98428AD5B10D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:53:12 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8CCF33BF-B415-4A17-33AE-7D9561AAA082" name="T_VB_PLANO_SAUDE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:51:54 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8F356AB-513C-C505-1B72-66BEB1A5E453</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

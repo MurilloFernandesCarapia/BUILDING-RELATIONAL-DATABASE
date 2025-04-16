@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C165E36E-FA81-5E29-6F49-2218E339641D" name="T_VB_ENDERECO">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>4CB329D7-7142-FCD8-09CF-AB7843E3A8BD</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_endereco" id="0042BB57-AC24-A5F9-487D-4542CBBAA4CA">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>CB32B2DD-F5AC-5494-1F0F-C52C6204A7F0</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_logradouro" id="C8F87196-9773-07ED-DB7B-9DF1A0EA763E">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>846E73CA-D0DB-93AB-6B3A-6EE9A5B33B7E</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="6A7AB347-3456-0DAE-F4DD-D2C8EEA5F23E">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>49000EE2-0948-2A3F-A643-4AC4862B0D9A</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="94578B16-C7BC-B5D2-A1F2-2D2D2D590D0B">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>30AF46E5-3ADC-D91E-A88F-6AC80BAD36D8</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="2E9980B8-79F8-84B6-1EB6-822581320DA8">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>9752BFC2-F44D-C35F-9155-5BC9630C1C4A</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="D10EE929-18C1-5B99-E688-DE22B7BCFA97">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>F4974EFA-2273-D570-0827-BBECE9CD1988</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ponto_referencia" id="009DE6D8-0128-2999-EA2F-3FBA9BF4A066">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>EC3031DA-BAF0-528F-0503-3692E1B290AB</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5352E012-FDB7-4BB0-6CCF-FB5364F69870" name="T_VB_ENDERECO_PK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>48A988AA-E791-FC48-83C8-067681E54177</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0042BB57-AC24-A5F9-487D-4542CBBAA4CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

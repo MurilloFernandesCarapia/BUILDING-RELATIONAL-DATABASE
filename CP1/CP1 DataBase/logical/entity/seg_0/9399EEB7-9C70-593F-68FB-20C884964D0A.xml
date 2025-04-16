@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9399EEB7-9C70-593F-68FB-20C884964D0A" name="T_VB_EMAIL">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:37:50 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_de_email_estrangeiro" id="95307E79-677A-19E4-859A-C65BCA30B6EE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:45:25 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_email" id="29B08B90-9A0A-9DF9-A706-1C557B87A191">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:46:29 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_email" id="504ACD36-C0BD-84C7-9CB6-77A08529ADCC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:46:46 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="85D6D73B-7598-566E-C44E-1E3E04D38A52">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:29:12 UTC</createdTime>
+<generatorID>944AACB0-3C7C-F5A2-5FF6-563A3A8FF683</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<referedAttribute>A1BBC403-4D65-4B5F-F863-9E359D9C7297</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Paciente_Telefone_FK" directorySegmentName="seg_0" id="05433F34-0ADE-D756-48B9-43F2D5728F55">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:28:24 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<sourcePk>B49E677C-B4B4-8C5C-EA9A-9EB599BCE4AC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FD56D15E-2B20-6DCC-CFF7-520D58DCB3F9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A38BAE00-6195-BC77-DEA8-F02843D6917A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

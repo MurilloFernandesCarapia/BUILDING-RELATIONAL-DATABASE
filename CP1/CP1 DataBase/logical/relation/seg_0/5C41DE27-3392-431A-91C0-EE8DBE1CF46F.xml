@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Plano_Saude" directorySegmentName="seg_0" id="5C41DE27-3392-431A-91C0-EE8DBE1CF46F">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:30:42 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<sourcePk>8CCF33BF-B415-4A17-33AE-7D9561AAA082</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4709FE49-DE83-6532-72E7-C0BE298E17FB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4FDA2B91-0D80-4E74-ED0F-A247C551CBC8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

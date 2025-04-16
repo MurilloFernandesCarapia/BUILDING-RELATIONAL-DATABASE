@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F180C54-AF85-7BBE-6074-31CB005BF3BA" name="T_VB_PLANO_SAUDE">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>4709FE49-DE83-6532-72E7-C0BE298E17FB</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_plano-saude" id="DD8E8D75-4F4E-304A-1FDD-0E3E99D0B42E">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>A8F356AB-513C-C505-1B72-66BEB1A5E453</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_fantasia" id="1C9797C7-C4C9-0F15-C6B7-2E5F19F3B140">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>097FB8C2-6743-8A91-67A5-F4831F2DCA49</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razao_social" id="DD14CE27-014C-D87F-5852-8B7328CA4060">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>D214DDFF-EC59-36A8-FB33-6250E6F9A733</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNPJ" id="4521090F-C266-12D7-4EE9-7F42C559C1E1">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>CE4D2D7E-4B36-41DE-E325-DC7329D3E5AF</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contato" id="B4AC1DEC-FA8C-BDEC-1AE5-E524B4543750">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>AD925543-EE81-0CCF-E07A-9F2E28CEE81D</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="D13B70A7-007F-7AB0-EE76-939A157C572C">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>9B7FAEEE-AA41-12F8-CE46-98428AD5B10D</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="999D72FF-6164-C628-6DCA-4323A97E93D5" name="T_VB_PLANO_SAUDE_PK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:35:49 UTC</createdTime>
+<generatorID>8CCF33BF-B415-4A17-33AE-7D9561AAA082</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD8E8D75-4F4E-304A-1FDD-0E3E99D0B42E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

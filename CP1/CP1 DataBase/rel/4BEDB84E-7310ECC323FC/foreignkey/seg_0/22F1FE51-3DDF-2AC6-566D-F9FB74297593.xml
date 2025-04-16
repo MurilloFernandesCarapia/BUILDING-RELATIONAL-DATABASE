@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22F1FE51-3DDF-2AC6-566D-F9FB74297593" containerWithKeyObject="4FDD5599-479A-7B8C-F5FB-5A6948E393F4" localFKIndex="DC263447-B891-46D8-82DA-305E2D76958E" name="T_VB_PACIENTE_EMERGENCIA_FK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:37:48 UTC</createdTime>
+<generatorID>B3B60B4C-E9A8-7887-1D3A-8994EC933C16</generatorID>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<referredTableLongName>T_VB_EMERGENCIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DDE0F9CB-8320-2C34-928B-25A8869521B0</referredTableID>
+<keyObject>C72B8983-5C3D-B098-CEFD-0EA89F50148F</keyObject>
+<referredKeyID>C72B8983-5C3D-B098-CEFD-0EA89F50148F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_contato</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

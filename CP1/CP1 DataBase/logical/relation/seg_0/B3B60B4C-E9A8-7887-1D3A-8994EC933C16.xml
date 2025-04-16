@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="paciente_telefone_emergencia" directorySegmentName="seg_0" id="B3B60B4C-E9A8-7887-1D3A-8994EC933C16">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-04-16 13:37:32 UTC</createdTime>
+<ownerDesignName>CP1 DataBase</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<sourcePk>27ABAB74-1846-2367-050E-A77A31054CE1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D107E2C9-7F7D-DE62-D4C6-316BCC71D343</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FD56D15E-2B20-6DCC-CFF7-520D58DCB3F9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
