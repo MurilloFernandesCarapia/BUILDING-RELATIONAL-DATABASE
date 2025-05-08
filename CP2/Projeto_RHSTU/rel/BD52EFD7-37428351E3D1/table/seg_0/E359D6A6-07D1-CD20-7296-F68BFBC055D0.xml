@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E359D6A6-07D1-CD20-7296-F68BFBC055D0" name="T_STU_FORMA_PAGAMENTO_PIX">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>D9D01C6C-8448-A98E-FB9C-59252745D92E</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_STU_FORMA_PAGAMENTO_ID_PAGAMENTO" id="74588FF2-5AEA-73F6-83F7-126A32ECD52C">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>EBB217DD-BAF1-A662-6B06-771DC5B17426</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACF59B18-1375-4E8B-9E0F-E4FC336333E6" referredColumn="B246FD0D-831E-B717-6A7C-0B3F4878D948"/>
+</associations>
+</Column>
+<Column name="NR_TRANSACAO" id="F0F47058-C272-68A9-3CCD-BD6FD3674401">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>2F5A3951-B100-7B0F-C38E-558CDB48969D</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_TRANSACAO" id="A82AAB6A-8C35-AAEC-136E-9923FBB3D3A3">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>8AF700A1-F196-4AF2-C52A-B3C99BABFD92</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_PIX" id="4A92CA31-F3AA-B0C1-CC43-8A193646543F">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>42BF3ABA-ECA3-B1A0-E8ED-CA774EB06609</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="159628EF-3D59-BCF4-912A-BFB9DFE1FE03" name="T_STU_FORMA_PAGAMENTO_PIX_PK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>4BED51E9-9484-A048-D693-751B652908D2</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74588FF2-5AEA-73F6-83F7-126A32ECD52C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16A66ACA-583F-16AD-D3B6-1310D0ECDCB6" name="T_STU_FORMA_PAGAMENTO_PIX_T_STU_FORMA_PAGAMENTO_FK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>AD9FA3E2-D405-F9F5-B42C-B7EECBF75395</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74588FF2-5AEA-73F6-83F7-126A32ECD52C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

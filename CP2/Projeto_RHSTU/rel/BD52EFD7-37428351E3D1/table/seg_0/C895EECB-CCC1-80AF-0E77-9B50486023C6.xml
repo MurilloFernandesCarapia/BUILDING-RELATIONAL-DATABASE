@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C895EECB-CCC1-80AF-0E77-9B50486023C6" name="T_STU_CONSULTA_FORMA_PAGTO">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>59D118B8-7019-669A-9873-2AC021E05E28</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONSULTA_FORMA_PAGTO" id="B1A9C87B-E520-63B6-0617-0D94436250C6">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>ADD37499-0A55-F7B7-05D0-4CDA34F30DB9</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_STU_CONSULTA_T_RHSTU_UNID_HOSPITALAR_ID_UNID_HOSPITAL" id="8E6B349B-7140-5CC1-ECD5-2294E2EAC745">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>A63EF0B2-598C-0448-3391-36D2DBC1D967</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E1A8C9C-5731-9753-CE37-B6B55042CA16" referredColumn="BE840A60-781B-2240-67CC-A079D474FA88"/>
+</associations>
+</Column>
+<Column name="T_STU_CONSULTA_NR_CONSULTA" id="A0004F33-7282-CD86-2215-5C3B7B38D989">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>6554A93E-DE91-0FA3-8926-1F3FD93F3461</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E1A8C9C-5731-9753-CE37-B6B55042CA16" referredColumn="0934C1F3-8024-B245-EB73-99E39DC6ABD3"/>
+</associations>
+</Column>
+<Column name="T_RHSTU_PACIENTE_PLANO_SAUDE_ID_PACIENTE_PS" id="53CEDD36-8DC4-6880-5991-A2AAA9546BBA">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do plano de saúde do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>0FC65912-F2DB-98ED-A075-BF269EC95DB0</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8C817C8-159B-4430-6214-8CEB1E5BFF6A" referredColumn="C858B12E-0D99-3880-1BE2-F2CCFFB40B4A"/>
+</associations>
+</Column>
+<Column name="T_STU_FORMA_PAGAMENTO_ID_PAGAMENTO" id="ADF7428C-B26F-6E3B-7D01-71666BDE1BA1">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>C59846D1-F01F-E630-E8DB-297DF9A0D1EC</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF2F7704-F300-8DD5-1F9F-98EF8E484406" referredColumn="B246FD0D-831E-B717-6A7C-0B3F4878D948"/>
+</associations>
+</Column>
+<Column name="DT_CADASTRO" id="CB276EED-A436-3649-A529-89438B0138F3">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>7C3AE8C3-DDE9-3085-0DF2-D698332961A1</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_PAGTO_CONSULTA" id="D632F7E7-FD81-C0D0-4804-2C3DFAEA8A36">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>8709A8DE-98E3-AE00-1CDB-67B46CB51A0D</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_PAGTO_CONSULTA" id="F3C73FEA-7D8E-7299-630A-B3E9B7D070D4">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>556A88F4-8D9A-922B-163C-6285FBED8787</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67C30509-7832-77C3-0CF5-5D48EB63E570" name="T_STU_CONSULTA_FORMA_PAGTO_PK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>668CF5F0-C569-ACDC-0D79-CEF91E54611E</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1A9C87B-E520-63B6-0617-0D94436250C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD888056-0CEC-FFCA-1049-A0E20199F78A" name="T_STU_CONSULTA_FORMA_PAGTO_T_STU_CONSULTA_FK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>A0FB73A1-88E6-4FBA-DFED-E3093E46A5B6</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0004F33-7282-CD86-2215-5C3B7B38D989"/>
+<colUsage columnID="8E6B349B-7140-5CC1-ECD5-2294E2EAC745"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53749D10-F66F-095A-14BE-048448E65D89" name="T_STU_CONSULTA_FORMA_PAGTO_T_STU_FORMA_PAGAMENTO_FK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>33B1FD0C-37C4-29F6-FEE9-93488DD3F096</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADF7428C-B26F-6E3B-7D01-71666BDE1BA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC875475-122F-2940-8AF9-3E19CB25F928" name="T_STU_CONSULTA_FORMA_PAGTO_T_RHSTU_PACIENTE_PLANO_SAUDE_FK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>3D0808C1-511C-F645-3C01-0FFE93B42EB6</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53CEDD36-8DC4-6880-5991-A2AAA9546BBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

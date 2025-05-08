@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CBA550C-14DE-7DAD-E846-6E6E1EAFADCF" name="T_STU_PRESCICAO_MEDICA">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>D392555C-7206-A975-2B61-A8268A878BA6</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRESCRICAO_MEDICA" id="A2BC737F-A729-8EC3-7C3F-69A752065F47">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>06450B3D-258A-9A48-AE2A-5E0D6CA8C185</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_STU_CONSULTA_T_RHSTU_UNID_HOSPITALAR_ID_UNID_HOSPITAL" id="2E6A9CCC-DCAC-A3A4-02B7-EB560B621487">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>2A69C009-B838-E04E-4FF5-3DBE5E4EBA04</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F6B3913-78AF-2174-CD77-B02E536411AA" referredColumn="BE840A60-781B-2240-67CC-A079D474FA88"/>
+</associations>
+</Column>
+<Column name="T_STU_CONSULTA_NR_CONSULTA" id="CB3E3B92-F570-5D2C-6664-475C218731D3">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>88C91FA8-2D56-602D-977A-466442B3F658</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F6B3913-78AF-2174-CD77-B02E536411AA" referredColumn="0934C1F3-8024-B245-EB73-99E39DC6ABD3"/>
+</associations>
+</Column>
+<Column name="T_STU_MEDICAMENTO_ID_MEDICAMENTO" id="8400A010-F144-A572-46A7-B23E42244AAF">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>51247351-12CE-622C-F252-6F6E4EDBC3FA</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBFF183F-350A-DB42-B8D9-57448D01272C" referredColumn="8CC70728-0967-F9B3-811B-2AC142F3A34A"/>
+</associations>
+</Column>
+<Column name="DS_POSOLOGIA" id="2ACCE7FA-62C8-CAFB-36A6-7C570C205D87">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>BEA532CF-A4B1-B5C3-B589-A6CC5BEDF284</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_VIA" id="BB57A8B0-1FC9-70FE-F61C-A97FF5320154">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>CCA1487C-3E75-48FF-4219-E9538B0053A5</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_OBSERVACAO_USO" id="C31C6129-9ED3-097C-9627-12296A0CB9FA">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>29516629-E8F4-0DF0-1A75-070FEAC6367F</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QT_MEDICAMENTO" id="9327E09B-67E9-BB60-D0B4-357C30EA132A">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>0B9BB64A-5932-18FA-DA89-C9EAC303F72A</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D75808C0-0A9E-D8C5-1652-E9363C9EC978" name="T_STU_PRESCICAO_MEDICA_PK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>4A73F3F3-7F8F-C401-A3E6-E44EA223D576</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2BC737F-A729-8EC3-7C3F-69A752065F47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0EE7017-D739-E76B-8692-250D5F63BF93" name="T_STU_PRESCICAO_MEDICA_T_STU_CONSULTA_FK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>83E26DE5-CFC7-0393-6E33-ADB73D0FD6E6</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB3E3B92-F570-5D2C-6664-475C218731D3"/>
+<colUsage columnID="2E6A9CCC-DCAC-A3A4-02B7-EB560B621487"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="783A49C5-D821-45CB-6363-A5417B075307" name="T_STU_PRESCICAO_MEDICA_T_STU_MEDICAMENTO_FK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>E71B8DAC-5B82-7B25-D969-CE67BC49AF03</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8400A010-F144-A572-46A7-B23E42244AAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

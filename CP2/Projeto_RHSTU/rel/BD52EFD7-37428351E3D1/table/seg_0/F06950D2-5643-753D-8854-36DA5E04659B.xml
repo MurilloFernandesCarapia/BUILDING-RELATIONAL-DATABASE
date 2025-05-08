@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F06950D2-5643-753D-8854-36DA5E04659B" name="T_RHSTU_CONTATO_PACIENTE">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>1A38783D-A6E3-011F-AE94-7991B8C23B12</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_RHSTU_PACIENTE_ID_PACIENTE" id="B2987A50-4970-BDED-63C0-84CF79315570">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>1C64CBCB-A234-0861-938D-0EB064629329</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D28B2827-2E11-9183-370D-3B0F90F11CA4" referredColumn="DE58B027-46A4-E458-049C-18EFDCB0BA81"/>
+</associations>
+</Column>
+<Column name="ID_CONTATO" id="8C50204B-4B9E-2233-C798-2374DCADFDF9">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do contato do paciente. Esse número é sequencial e inicia sempre com 1 a partir do id do paciente e é gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do contato do paciente. Esse número é sequencial e inicia sempre com 1 a partir do id do paciente e é gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>C60797BE-4119-9129-B14A-88739D575B56</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_RHSTU_TIPO_CONTATO_ID_TIPO_CONTATO" id="0807F2C7-C02B-9BB4-E5BA-3BC340AD4BDB">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do tipo do contato. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do tipo do contato. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>894D4DF0-1BF7-ADC3-9CEB-77AAC83B16AA</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C242AB8-F692-4DF2-F29E-A182FEE39A7A" referredColumn="9B439A5B-5154-7AA1-73A8-80A38C46EE1D"/>
+</associations>
+</Column>
+<Column name="NM_CONTATO" id="EE9D1B1D-4860-E163-26F2-7C05D704EF75">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o nome do contato do paciente. Seu conteudo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o nome do contato do paciente. Seu conteudo é obrigatório.]]></commentInRDBMS>
+<generatorID>11C8FA5C-8E33-3243-4E99-FAED8A12A931</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_DDI" id="B60FAFE0-7645-2410-AD4A-7B5057AF557F">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o número do DDI do telefone do contato do paciente. Seu conteudo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o número do DDI do telefone do contato do paciente. Seu conteudo é opcional.]]></commentInRDBMS>
+<generatorID>294FD7DF-01BD-9510-9064-BCAA0B2F2A80</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_DDD" id="0DC1CF73-0C40-B775-454F-19C6355A7BE0">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o número do DDD  do telefone do contato do paciente. Seu conteudo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o número do DDD  do telefone do contato do paciente. Seu conteudo é opcional.]]></commentInRDBMS>
+<generatorID>CA14A3CD-3477-1A67-B741-3DB8808D3250</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TELEFONE" id="81BCACD2-87D6-2BE1-7759-768092B87871">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber o número do telefone do contato do paciente. Seu conteudo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o número do telefone do contato do paciente. Seu conteudo é opcional.]]></commentInRDBMS>
+<generatorID>4C257F99-8015-21C5-1A14-EA8F95A502F9</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49D9B0D6-D108-1A9E-730B-26F59CE0B1BB" name="T_RHSTU_CONTATO_PACIENTE_PK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>2AE6C75F-2810-8CEA-5FA4-7C1166C2AFA6</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C50204B-4B9E-2233-C798-2374DCADFDF9"/>
+<colUsage columnID="B2987A50-4970-BDED-63C0-84CF79315570"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1316181F-A3B7-0394-DD25-44ED041A1D81" name="T_RHSTU_CONTATO_PACIENTE_T_RHSTU_PACIENTE_FK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>DE1DF8BF-A74C-3932-5D5D-DC1555633DE6</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2987A50-4970-BDED-63C0-84CF79315570"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C007C8C0-7199-CB2C-A4F1-FC0EC15F1DAC" name="T_RHSTU_CONTATO_PACIENTE_T_RHSTU_TIPO_CONTATO_FK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>20403068-9FFF-7A08-63D5-13C205008336</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0807F2C7-C02B-9BB4-E5BA-3BC340AD4BDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

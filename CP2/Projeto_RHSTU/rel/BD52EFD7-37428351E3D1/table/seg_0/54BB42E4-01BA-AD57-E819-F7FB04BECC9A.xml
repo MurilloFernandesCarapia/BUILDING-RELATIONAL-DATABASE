@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54BB42E4-01BA-AD57-E819-F7FB04BECC9A" name="T_STU_CONSULTA">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>31723517-2989-D028-7B9E-D4C226A4767D</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_RHSTU_UNID_HOSPITALAR_ID_UNID_HOSPITAL" id="BE840A60-781B-2240-67CC-A079D474FA88">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>B6C488CB-AE82-A793-0536-0FCACEBB3861</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A30D74AB-270B-F740-5311-69A4F199284B" referredColumn="724C18D4-8A24-0E4A-D691-62BA1BAE9FC8"/>
+</associations>
+</Column>
+<Column name="NR_CONSULTA" id="0934C1F3-8024-B245-EB73-99E39DC6ABD3">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>4DC2BBD4-5844-F984-AA0B-B83576D7F211</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_RHSTU_PACIENTE_ID_PACIENTE" id="FF54E93D-DCB4-6DA3-DD94-5C18D42061D8">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>AE16BCCF-B954-6824-F7DB-300D2318D9B2</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4346CED3-F490-CAA1-92EB-24292CC575D0" referredColumn="DE58B027-46A4-E458-049C-18EFDCB0BA81"/>
+</associations>
+</Column>
+<Column name="T_STU_MEDICO_CD_MEDICO" id="2E41FB82-A4D7-96D9-909F-7BA38FADAEF6">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>4ADC3A8B-EDCB-8300-F9D5-2595EE930581</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5079DF8A-EC7B-596A-0326-6BEAAE2AF24B" referredColumn="759BA759-C36F-A722-BAD5-1A4524699B58"/>
+</associations>
+</Column>
+<Column name="DT_HR_CONSULTA" id="C79824AD-7D4C-F205-E340-9AFB57A8320E">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>E984FC82-E115-71C8-5FDA-85BB1A35804F</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CONSULTORIO" id="3BF5A081-2A81-B739-1A39-59DE1011EB1E">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>27D923EF-8051-DAC9-6DAC-2BE39E00AAB0</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D9BECD3-D58A-55E2-EFB1-EA665CABF43C" name="T_STU_CONSULTA_PK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>94012AC5-2823-C905-42C8-C02D1BAAFCE4</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0934C1F3-8024-B245-EB73-99E39DC6ABD3"/>
+<colUsage columnID="BE840A60-781B-2240-67CC-A079D474FA88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E62FA05C-D8D5-EF4E-6295-E07144FA6621" name="T_STU_CONSULTA_T_RHSTU_UNID_HOSPITALAR_FK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>A13A1EBB-693F-9AEF-C9E5-3E59D154F9D3</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE840A60-781B-2240-67CC-A079D474FA88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C2A913D-2C49-F57C-D3D1-5A774F4B71A8" name="T_STU_CONSULTA_T_STU_MEDICO_FK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>D2E39926-C7CB-40C3-CCFE-0A79C9A7B3BB</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E41FB82-A4D7-96D9-909F-7BA38FADAEF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="510DBE07-31D5-3D5A-E0EE-DEBC46EFACB5" name="T_STU_CONSULTA_T_RHSTU_PACIENTE_FK">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 12:23:04 UTC</createdTime>
+<generatorID>911D582F-E5D9-B53A-08A1-2336487045C2</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF54E93D-DCB4-6DA3-DD94-5C18D42061D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

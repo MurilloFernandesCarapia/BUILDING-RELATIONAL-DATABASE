@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_STU_FORMA_PAGAMENTO_CONVENIO" directorySegmentName="seg_0" id="04D880E1-91BA-742E-44CA-A8C3070D2A53">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 11:55:05 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>55F73CDA-78DE-9172-EC31-1DE605267B8F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4E669F69-BDAD-1338-53E6-A52CD1549F1D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A31C778-4F4F-9BA3-616F-A999DCEC1D9D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

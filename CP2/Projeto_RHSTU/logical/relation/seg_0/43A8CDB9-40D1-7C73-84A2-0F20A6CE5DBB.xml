@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_STU_FORMA_PAGAMENTO_DEBITO" directorySegmentName="seg_0" id="43A8CDB9-40D1-7C73-84A2-0F20A6CE5DBB">
+<createdBy>Murillo</createdBy>
+<createdTime>2025-05-08 11:55:00 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>55F73CDA-78DE-9172-EC31-1DE605267B8F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4E669F69-BDAD-1338-53E6-A52CD1549F1D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>03E3C6B6-420B-DEE1-1560-DC2F143E6D1C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
